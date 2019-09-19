@@ -12,6 +12,7 @@ export class FlexiComponent implements OnInit {
 
   flexiItems: any = [];
   formSelection = {};
+  payLoad:any;
 
   constructor(private flexiService: FlexiService) { }
 
